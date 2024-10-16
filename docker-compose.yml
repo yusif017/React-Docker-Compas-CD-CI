@@ -1,0 +1,8 @@
+version: '3'
+services:
+  web:
+    volumes:
+      - ./src:/usr/src/app
+    ports:
+      - "3001:3000"
+      
